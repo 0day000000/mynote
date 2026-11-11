@@ -1,7 +1,7 @@
 import os
 import sys
 
-# 自动修复某些 Windows 环境下 Python 3.12 的 Tcl/Tk 环境变量缺失问题
+# 自动修复某些 Windows 环境下 Python 3.12 的 Tcl/Tk 环境变量缺失问题 
 tcl_dir = r'C:\Users\zn\AppData\Local\Programs\Python\Python312\tcl\tcl8.6'
 tk_dir = r'C:\Users\zn\AppData\Local\Programs\Python\Python312\tcl\tk8.6'
 if os.path.exists(tcl_dir):
